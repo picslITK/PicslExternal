@@ -25,10 +25,6 @@ CreateTestDriver(ITKPicslExternal  "${ITKPicslExternal-Test_LIBRARIES}" "${ITKPi
 #      COMMAND ITKPicslExternalTestDriver
 #      itkDemonsVectorImageToVectorImageObjectMetricTest)
 
-itk_add_test(NAME itkANTSNeighborhoodCorrelationImageToImageObjectMetricTest
-      COMMAND ITKPicslExternalTestDriver
-      itkANTSNeighborhoodCorrelationImageToImageObjectMetricTest)
-
 # NOTE - this is waiting for new testing data images to be added
 #itk_add_test(NAME itkDemonsImageToImageObjectRegistrationTest
 #      COMMAND ITKPicslExternalTestDriver
