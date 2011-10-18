@@ -1,0 +1,18 @@
+itk_module(ITKPicslExternal
+  DEPENDS
+    ITKRegistrationCommon
+    ITKOptimizers
+    ITKImageIntensity
+    ITKImageFunction
+    ITKImageGrid
+    ITKSpatialObjects
+    ITKSmoothing
+    ITKImageGradient
+    ITKImageFeature
+    ITKFiniteDifference
+    ITKHighDimensionalOptimizers
+    ITKHighDimensionalMetrics
+    ITKDisplacementField
+  TEST_DEPENDS
+    ITKTestKernel
+)
